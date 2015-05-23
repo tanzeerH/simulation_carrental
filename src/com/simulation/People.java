@@ -10,7 +10,7 @@ public class People {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public long getStartTime() {
+	public int getStartTime() {
 		return startTime;
 	}
 	public void setStartTime(int startTime) {

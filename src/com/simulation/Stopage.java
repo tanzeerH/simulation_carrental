@@ -1,6 +1,9 @@
 package com.simulation;
 
-import sun.security.x509.AVA;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+
 
 public class Stopage {
 	
@@ -9,6 +12,13 @@ public class Stopage {
 	private int queLength;
 	private int total=0;
 	private int count=0;
+	private PriorityQueue<Integer> qList=new PriorityQueue<Integer>();
+	public PriorityQueue<Integer> getqList() {
+		return qList;
+	}
+	public void setqList(PriorityQueue<Integer> qList) {
+		this.qList = qList;
+	}
 	public int getTotal() {
 		return total;
 	}
