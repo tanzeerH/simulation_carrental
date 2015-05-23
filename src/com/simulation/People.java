@@ -2,7 +2,7 @@ package com.simulation;
 
 public class People {
 	private int id;
-	private long startTime=0;
+	private int startTime=0;
 	private int start=-1;
 	public int getId() {
 		return id;
@@ -13,7 +13,7 @@ public class People {
 	public long getStartTime() {
 		return startTime;
 	}
-	public void setStartTime(long startTime) {
+	public void setStartTime(int startTime) {
 		this.startTime = startTime;
 	}
 	public int getStart() {
@@ -28,13 +28,13 @@ public class People {
 	public void setDestination(int destination) {
 		this.destination = destination;
 	}
-	public long getEndTime() {
+	public int getEndTime() {
 		return endTime;
 	}
-	public void setEndTime(long endTime) {
+	public void setEndTime(int endTime) {
 		this.endTime = endTime;
 	}
 	private int destination=-1;
-	private long endTime=0;
+	private int endTime=0;
 
 }
